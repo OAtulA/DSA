@@ -7,6 +7,7 @@ class set_zero {
         int[][] matrix2 = matrix;
         // int[] row = new int[matrix[0].length];
         // int[] column = new int[matrix.length];
+        
         ArrayList<Integer> row = new ArrayList<Integer>();
         ArrayList<Integer> col = new ArrayList<Integer>();
 
