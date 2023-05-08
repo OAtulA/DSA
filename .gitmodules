@@ -1,0 +1,3 @@
+[submodule "Practise/GFG-Practise"]
+	path = Practise/GFG-Practise
+	url = git@github.com:OAtulA/GFG-Practise.git
