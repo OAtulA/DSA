@@ -1,6 +1,3 @@
-// package Practise.Striver_A2Z_DSA_Sheet.Pattern_questions.Tree_pattern;
-
-import java.io.*;
 
 class Solution{
 

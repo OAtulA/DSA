@@ -1,4 +1,4 @@
-// package Patterns.Pattern_20;
+
 
 public class Solution {
     void printTriangle(int n) {

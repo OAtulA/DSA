@@ -1,4 +1,4 @@
-package Striver_SDE_Sheet.Array.set_matrix_zeros;
+
 
 import java.util.ArrayList;
 
