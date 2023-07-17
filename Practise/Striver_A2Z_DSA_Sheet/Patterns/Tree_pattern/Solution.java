@@ -1,4 +1,4 @@
-
+package Patterns.Tree_pattern;
 class Solution{
 
     void printTriangle(int n) {
