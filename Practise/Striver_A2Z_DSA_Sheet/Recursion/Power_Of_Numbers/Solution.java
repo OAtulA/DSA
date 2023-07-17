@@ -22,7 +22,7 @@ class Solution {
         }
         // else r-=1; //for positive nums since we already did num to 1
         while (r > 0) {
-            if (num % 2 == 0) {
+            if (r % 2 == 0) {
                 num = num * num;
                 r = r / 2;
             } else {
