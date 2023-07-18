@@ -1,3 +1,9 @@
+
 [submodule "Practise/GFG-Practise"]
 	path = Practise/GFG-Practise
 	url = git@github.com:OAtulA/GFG-Practise.git
+
+[submodule "Learn/DSA-Bootcamp-Java-Kunal-Kushwaha"]
+	path = Learn/DSA-Bootcamp-Java-Kunal-Kushwaha
+	url = git@github.com:OAtulA/DSA-Bootcamp-Java-Kunal-Kushwaha.git
+
