@@ -1,6 +1,6 @@
 #include <iostream>
+#include <limits>
 using namespace std;
-
 class Solution {
 public:
     int reverse(int x) {
@@ -8,13 +8,15 @@ public:
         // to help with addition
         if (x < 0) {
             sign = -1;
-            x = -x;
+            // as INT_MIN is -INT_MAX -1
+            if(x== INT_MIN) return 0;
+            else x = -x;
         }
 
         while (x > 0) {
 
             // to check if the generated number is bigger than maxInt32
-            if ((ans * 10 + x % 10) >=  __INT32_MAX__ ) {
+            if( ans >INT_MAX/10 || (ans== INT_MAX/10 && x%10 >7) ) {
                 return 0;
             }
 
@@ -24,12 +26,11 @@ public:
         }
 
         // set sign
-
+        
         return sign * ans;
   
     }
 };
-
 int main(int argc, char const *argv[])
 {
     Solution obj;
