@@ -1,9 +1,32 @@
 #include<iostream>
+#include<algorithm>
 #include<vector>
 
 using namespace std;
 
 void helper(int n, vector<int>& arr){
+
+    arr.emplace_back(n);
+
+    if(n==1) return;
+    helper(n-1, arr);
+}
+
+
+vector<int> printNos(int x) {
+    // Write Your Code Here
+
+    vector<int> arr;
+
+    helper(x, arr);
+
+    reverse( arr.begin(), arr.end() );
+    return arr;
+
+
+}
+
+void helper2(int n, vector<int>& arr){
     /*
     if(n==1) arr.emplace_back(1);
 
@@ -19,19 +42,7 @@ void helper(int n, vector<int>& arr){
 
    arr.insert(arr.begin(), n);
 
-   helper(--n, arr);
-}
-
-vector<int> printNos(int x) {
-    // Write Your Code Here
-
-    vector<int> arr;
-
-    helper(x, arr);
-
-    return arr;
-
-
+   helper2(--n, arr);
 }
 
 
