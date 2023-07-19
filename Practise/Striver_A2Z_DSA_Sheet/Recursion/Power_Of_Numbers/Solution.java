@@ -1,4 +1,4 @@
-package Recursion.Power_Of_Numbers;
+
 
 // Power Of Numbers
 // https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-of-numbers
