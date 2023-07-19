@@ -9,7 +9,7 @@ int countDigits(int n){
 	while(n>0){
 		digit = n%10;
 
-		if(!(backup% digit)) 
+		if(digit!=0 && !(backup% digit)) 
 		 evenDiv++;
 
 		n/=10;
