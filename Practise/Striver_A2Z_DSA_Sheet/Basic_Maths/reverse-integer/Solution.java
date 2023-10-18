@@ -15,15 +15,18 @@ class Solution {
 
         while (x > 0) {
 
-            // to check if the generated number is bigger than maxInt32
-            if (ans > Integer.MAX_VALUE/10 || (ans== Integer.MAX_VALUE/10 && x%10 >7) ) {
+                        // to check if the generated number is bigger than maxInt32
+            /* if (ans > Integer.MAX_VALUE/10 || (ans== Integer.MAX_VALUE/10 && x%10 >7) ) {
                 return 0;
             }
+            */
 
             ans = ans * 10 + x % 10;
 
             x /= 10;
         }
+
+        if(ans>Integer.MAX_VALUE) return 0;
 
         // set sign
 

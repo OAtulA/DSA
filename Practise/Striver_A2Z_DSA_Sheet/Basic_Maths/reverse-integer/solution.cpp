@@ -31,11 +31,13 @@ public:
   
     }
 };
-int main(int argc, char const *argv[])
+int main( )
 {
     Solution obj;
-    int ans = obj.reverse(-2143847412);
-
+    int num;
+    cin>>num;
+    // int ans = obj.reverse(-2143847412);
+    int ans = obj.reverse(num);
     
     cout << ans << "\n";
     return 0;
